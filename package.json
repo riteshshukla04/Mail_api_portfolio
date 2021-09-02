@@ -1,0 +1,22 @@
+{
+  "name": "mailing-api",
+  "version": "1.0.0",
+  "description": "Mail API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshshukla04/Mail_api_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riteshshukla04/Mail_api_portfolio/issues"
+  },
+  "homepage": "https://github.com/riteshshukla04/Mail_api_portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
