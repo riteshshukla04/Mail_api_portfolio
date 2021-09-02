@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 
 app.post('/', async (req, res) => {
     const {email,message,subject,name} = req.body;
-
+    console.log(process.env.EMAIL)
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 465,
