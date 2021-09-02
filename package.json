@@ -4,7 +4,7 @@
   "description": "Mail API",
   "main": "index.js",
   "scripts": {
-    "test": "npm index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/riteshshukla04/Mail_api_portfolio#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.17.3"
   }
 }
